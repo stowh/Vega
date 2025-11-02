@@ -72,7 +72,6 @@ func main() {
   router.Post("/echo", func(ctx *vega.Context) {
     var p Payload
     if err := ctx.BindJSON(&p); err != nil {
-      ctx.Status(400)
       ctx.JSON(400, vega.H{"error": "invalid JSON"})
       return
     }
