@@ -1,4 +1,4 @@
-module github.com/gox7/vega
+module github.com/losthq-dev/vega
 
 go 1.24.4
 
