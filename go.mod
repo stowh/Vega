@@ -1,4 +1,4 @@
-module github.com/stowh/vega
+module github.com/stowh/vegapackage
 
 go 1.24.4
 
